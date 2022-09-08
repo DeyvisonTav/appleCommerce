@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container{
+  @apply fixed bg-[#F5F5F7]  flex py-3 px-10 justify-between opacity-95;
+}
+
+.logoContainer{
+  @apply pl-56 ;
+
+  h1{
+    @apply text-2xl font-bold text-zinc-800;
+  }
+}
+
+.containerLinks{
+  @apply max-w-2xl flex space-x-10 pr-80 text-gray-600 ;
+}
+
+.link{
+  @apply hover:text-blue-500 ;
+  
+} 
+
+
+.btn{
+  @apply text-center items-center bg-blue-600 rounded-2xl text-white px-3 py-[2px] hover:bg-blue-500 transition-colors;
+}
+

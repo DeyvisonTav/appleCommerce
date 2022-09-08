@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containerSpecification {
+  @apply flex flex-col text-center justify-center items-center w-max pl-72 h-full;
+}
+
+.titleSpec {
+  @apply text-start text-3xl font-bold  w-max pt-20;
+  h1 {
+    @apply border-b-2 border-neutral-300 w-[60rem] py-14;
+  }
+  h2 {
+    @apply pt-10 text-2xl font-medium;
+  }
+}
+.imgSpec {
+  @apply w-max;
+  img {
+    @apply text-center;
+  }
+}
+.containerImgSpec {
+  @apply p-10;
+}
+.textSpec {
+  @apply pl-10 text-center text-xl w-[39rem] pb-10 text-gray-500 font-normal ;
+}
+.borderText{
+  @apply border-b-2 border-neutral-300 w-[60rem] ;
+}
+
+.SpecH2{
+  @apply flex flex-col py-10   ;
+  div{
+    @apply flex text-center items-center  ;
+  }
+}
+.sizeSpec{
+  @apply flex flex-col text-xl text-gray-500  text-center font-normal pr-[30rem] ;
+}
+.weightSpec{
+  @apply text-center font-semibold text-gray-500 pt-1 pb-10 pr-[30rem];
+}
+.textSpec2{
+  @apply pl-12 text-center text-xl w-[60rem] pb-10 text-gray-500 font-normal;
+}
+.textSpec3{
+  @apply pl-12 text-center text-xl w-[60rem] pt-5 pb-10 text-gray-500 font-normal;
+}
+.textSpec4{
+  @apply pl-12 text-center text-xl w-[20rem] pt-10 pb-10 text-gray-500 font-normal;
+}
+.containerImgSpec2{
+  @apply flex justify-center items-center text-center w-[60rem] pb-10;
+}
+
+

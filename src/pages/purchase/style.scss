@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.containerPurchase{
+  @apply flex flex-col justify-center items-center w-max max-w-6xl h-full;
+
+}
+.titlePurchase{
+  @apply text-center w-max text-5xl font-semibold pr-[30rem] pt-20;
+}
+.subtitlePurchase{
+  @apply text-center w-max text-lg font-normal text-gray-600 pr-2 pt-2;
+}
+
+.containerPurchaseSwiper{
+  @apply flex flex-col pt-20 bg-[#FDFDFD] ml-[2rem] rounded-3xl mt-[5rem] mb-[4rem] w-max justify-center items-center text-center;
+  
+
+
+}
+.swiperPurchase{
+ @apply w-[60rem] h-[35rem] justify-center items-center text-center relative ;
+ img{
+  @apply items-center text-center justify-center ml-[13rem];
+ }
+}
+.formPurchase{
+  @apply pl-[64rem] w-[30rem] absolute mb-[4rem] mt-[15rem] ;
+ h1{
+   @apply text-center w-[30rem] text-4xl font-semibold  ;
+ }
+}
+
+.btnPurchase{
+  @apply flex border-2 border-neutral-300 text-center justify-center w-[31rem] py-10 rounded-xl px-1 pt-10 mt-[1rem]
+  focus:border-black hover:border-zinc-600  ;
+}
+.selectColorPurchase{
+  @apply mt-2 pb-2;
+    
+}
+.selectColorPurchaseH2{
+  @apply font-semibold text-xl pt-10 ;
+}
+.selectPurchase{
+  @apply flex mt-5 mb-[6.8rem] border-2 border-neutral-300  hover:border-zinc-600 focus:border-black;
+}
+
+.btnPurchase2{
+  @apply text-center items-center bg-blue-600 rounded-3xl text-white px-[13.7rem] py-2 hover:bg-blue-500 transition-colors
+}
